@@ -115,13 +115,7 @@ export function ImportSingleChainBase({
     } else {
       setValidateResult(undefined);
     }
-  }, [
-    clearText,
-    inputTextDebounced,
-    networkIdText,
-    setValue,
-    validationParams,
-  ]);
+  }, [inputTextDebounced, networkIdText, setValue, validationParams]);
 
   useEffect(() => {
     void (async () => {
